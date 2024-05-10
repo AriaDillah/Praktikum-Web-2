@@ -71,7 +71,7 @@ if(isset($_POST["submit"])){
         session_start();
 
         $_SESSION["user"] = $user->fetch();
-        header("location:index.php");
+        header("location:index2.php");
     }else { //jika login gagal
         header("location:login.php");
     }

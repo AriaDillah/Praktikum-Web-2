@@ -37,7 +37,7 @@ require_once 'sidebar.php';
                             </div>
                         </div>
                         <div class="card-body">
-                            Aria Dillah - 0110223076
+                            Mahdi Saputra - 0110223058
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer">
