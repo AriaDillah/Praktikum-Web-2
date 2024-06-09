@@ -3,6 +3,9 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PasienController;
+use App\Http\Controllers\DokterController;
+use App\Http\Controllers\PeriksaController;
+use App\Http\Controllers\UnitkerjaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,5 +33,7 @@ Route::get('/nilai', function () {
 
 Route::get('/admin', [AdminController::class, 'index']);
 Route::get('/pegawai', [PegawaiController::class, 'index']);
-// pasien
-Route::get('/admin/pasien', [PasienController::class, 'index']);
+Route::get('/pasien', [PasienController::class, 'index']);
+Route::get('/dokter', [DokterController::class, 'index']);
+Route::get('/periksa', [PeriksaController::class, 'index']);
+Route::get('/unitkerja', [UnitkerjaController::class, 'index']);
